@@ -5,11 +5,17 @@ package edu.wpi.cs3733.entity;
  */
 public class CaesarCipher implements Observer {
 
-	public void setText(String text){
+	private String text;
 
+
+	public void setText(String text){
+		this.text=text;
 	}
 
 	public String getText(){
+
+
+
 		return null;
 	}
 
